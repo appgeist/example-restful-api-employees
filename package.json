@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "A simple example to demonstrate the usage of @appgeist/restful-api",
   "main": "index.js",
-  "repository": "https://github.com/appgeist/example-restful-api-employees",
   "author": {
     "name": "Ionut-Cristian Florescu",
     "email": "ionut.florescu@gmail.com",
