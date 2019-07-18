@@ -1,10 +1,10 @@
-const { Model } = require("objection");
-const { normalize } = require("path");
-const pluralize = require("pluralize");
-const { ApiError } = require("@appgeist/restful-api");
-const { NOT_FOUND } = require("http-status-codes");
+const { Model } = require('objection');
+const { normalize } = require('path');
+const pluralize = require('pluralize');
+const { ApiError } = require('@appgeist/restful-api');
+const { NOT_FOUND } = require('http-status-codes');
 
-const db = require("models/db");
+const db = require('models/db');
 
 Model.knex(db);
 
