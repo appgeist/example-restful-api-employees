@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@appgeist/eslint-config-base@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-base/-/eslint-config-base-1.1.0.tgz#f335f0942dce676563632d2a0241aa4dc10a62ad"
-  integrity sha512-Pe63ELAzY2C4TvkExJbr1CxKkr5nogsx+POOmG7cNGRWFNIiPoyf02qd+XRV55jcoK189qvoBPbtINciaIbkeA==
+"@appgeist/eslint-config-base@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-base/-/eslint-config-base-1.1.1.tgz#bfa0e3460a649c2528d2005b8f5f0e8197f79808"
+  integrity sha512-DeN9Du+uFZEXdD5x4CXYVOBreDCqGWlk4tVNP8zs2nUuFwz1Z7tHzdjvjTgLawOmbxjh4rStMUkqDtiNjM4vKg==
   dependencies:
     babel-eslint "^10.0.2"
     eslint "^4.19.1"
@@ -15,20 +15,20 @@
     eslint-plugin-prettier "^3.1.0"
     prettier "^1.18.2"
 
-"@appgeist/exec@^1.0.6":
+"@appgeist/exec@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@appgeist/exec/-/exec-1.0.7.tgz#da26cb38e9ef252035c44c11c7dafe03c17c7148"
+  integrity sha512-ql4+yJaIIYbzXIV8mKhiWnM9wZ+tSXMRTKTRqkuWTIXwGDe7Z1f2cm3Hr/Sq3G8TrSF4UxlYodsmbxeOS+KROA==
+
+"@appgeist/file-exists@^1.0.6":
   version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@appgeist/exec/-/exec-1.0.6.tgz#7370ef39d1a6cdc014d53396ee0b0848b4be1363"
-  integrity sha512-T8SWJXNvSTofQ4Ralz7E8eVaxEm5H8dsEXjwpXjF37bBaC8TFNj8CTold5gXeuFGL820ZrcBqXLMc/9LbN/NWQ==
+  resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.6.tgz#57b61057d215b515012c6c48892a84ba182ad321"
+  integrity sha512-H1ANU/6efq+m2QCTaiN/JAQeFycL/Y3RptiCJNmjUYR1Ly63jq4/heNWoEJH09q9QTjfKtdkAoY6OQoYdeggfA==
 
-"@appgeist/file-exists@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.5.tgz#bff9a5df2102a45241195ec04b4d677a667c3964"
-  integrity sha512-fI2AFX6F/FcJe9yERCKcYlTB4me2uWgQnBEPBPBpEOym7b/UCnj8+I+56QSIfm54I2zuheSM+zZWYv+7EUuF/Q==
-
-"@appgeist/restful-api@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-api/-/restful-api-1.1.0.tgz#81d93c4902b54e6b6e9b0c38a9bc92537351f73b"
-  integrity sha512-rjXmcrtfLFL1dGWqOUgiiOAXGpcd4n7bZOnk3jiUXhBfiKq49s6i99iPGKCmII+SoQ0oYfYZkhLfXjbp427xZA==
+"@appgeist/restful-api@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-api/-/restful-api-1.1.2.tgz#b9deb4ea757789eee83820aa4972c6693c39e138"
+  integrity sha512-6QxgbmebJzVVBVaYfU6LBEPW0k1JrNQUIVPk6LOFH4fI0P6oDM+aAUUa1hdMm109DOS/ectPsncx/QGubH65CQ==
   dependencies:
     chalk "^2.4.2"
     express "^4.17.1"
