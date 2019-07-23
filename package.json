@@ -31,7 +31,7 @@
     "@appgeist/eslint-config-base": "^1.1.2",
     "@appgeist/exec": "^1.0.8",
     "@appgeist/file-exists": "^1.0.7",
-    "@appgeist/restful-api": "^1.1.2",
+    "@appgeist/restful-api": "^1.2.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
