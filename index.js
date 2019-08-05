@@ -6,7 +6,7 @@ const compression = require('compression');
 const morgan = require('morgan');
 const api = require('@appgeist/restful-api');
 
-const ensureDatabase = require('./seed/ensureDatabase');
+const ensureDatabase = require('seed/ensureDatabase');
 
 const [host, port] = ['0.0.0.0', 3000];
 
