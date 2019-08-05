@@ -22,7 +22,7 @@
     "@types/http-status-codes": "^1.2.0",
     "@types/knex": "^0.16.1",
     "@types/morgan": "^1.7.36",
-    "@types/node": "^12.6.6",
+    "@types/node": "^12.6.9",
     "@types/pluralize": "^0.0.29",
     "@types/yup": "^0.26.22",
     "nodemon": "^1.19.1"
