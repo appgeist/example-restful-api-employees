@@ -16,7 +16,7 @@ exports.bodySchema = object({
     .nullable()
 }).noUnknown();
 
-exports.handler = ({ params: { id }, body }) =>
+exports.onRequest = ({ params: { id }, body }) =>
   Department.query()
     .updateAndFetchById(id, body)
     .throwIfNotFound();

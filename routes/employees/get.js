@@ -1,6 +1,6 @@
 const Employee = require('models/Employee');
 
-exports.handler = () =>
+exports.onRequest = () =>
   Employee.query()
     .select('id', 'firstName', 'lastName', 'jobTitle')
     .orderBy('firstName')

@@ -7,7 +7,7 @@ exports.paramsSchema = {
     .positive()
 };
 
-exports.handler = async ({ params: { id } }) =>
+exports.onRequest = async ({ params: { id } }) =>
   Employee.query()
     .findById(id)
     .eager('department(columns)', {

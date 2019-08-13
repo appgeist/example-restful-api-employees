@@ -10,4 +10,4 @@ exports.bodySchema = object({
     .nullable()
 }).noUnknown();
 
-exports.handler = ({ body }) => Department.query().insert(body);
+exports.onRequest = ({ body }) => Department.query().insert(body);

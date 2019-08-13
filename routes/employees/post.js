@@ -20,4 +20,4 @@ exports.bodySchema = object({
     .required()
 }).noUnknown();
 
-exports.handler = ({ body }) => Employee.query().insert(body);
+exports.onRequest = ({ body }) => Employee.query().insert(body);

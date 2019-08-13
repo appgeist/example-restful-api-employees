@@ -1,6 +1,6 @@
 const Department = require('models/Department');
 
-exports.handler = () =>
+exports.onRequest = () =>
   Department.query()
     .select('id', 'name')
     .orderBy('name');
