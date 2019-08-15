@@ -25,10 +25,10 @@
   resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.8.tgz#0ccbd8a092da0cb3dfe2b43765685f2607b38c4a"
   integrity sha512-Un54a0BRx+N1RZpde7VvN4ACu6PJ7gDvBcuy/f8FOBSzA8wBM9btZRU2SRnv7fNFDTF2Da8ek9TBLzSPTtZRqg==
 
-"@appgeist/restful-api@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-api/-/restful-api-1.4.0.tgz#a441b66c65346d14b9b457d3dbc1113b492ab9cd"
-  integrity sha512-uMrIETLaUBKh/us7+QsJ0d8wyucTRet6hW10LRdEYtKnGhZkz1KgFFpnvKWe0mv+YTH2lRWkl9R6kvKHj08GYw==
+"@appgeist/restful-api@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-api/-/restful-api-1.5.0.tgz#dc6bbd10920666cbe766173fe07fa97d220c6bb9"
+  integrity sha512-fvGDK1Kq7Qjpbh+XaKnVSKVa7kIS93T+T/Sifqj6x7YzN3237jzpoboPA70TrteVZ4SLrJQg/TKQkh/9VQSWUg==
   dependencies:
     chalk "^2.4.2"
     express "^4.17.1"
@@ -223,10 +223,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.6.8.tgz#e469b4bf9d1c9832aee4907ba8a051494357c12c"
   integrity sha512-aX+gFgA5GHcDi89KG5keey2zf0WfZk/HAQotEamsK2kbey+8yGKcson0hbK8E+v0NArlCJQCqMP161YhV6ZXLg==
 
-"@types/node@^12.7.1":
-  version "12.7.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.1.tgz#3b5c3a26393c19b400844ac422bd0f631a94d69d"
-  integrity sha512-aK9jxMypeSrhiYofWWBf/T7O+KwaiAHzM4sveCdWPn71lzUSMimRnKzhXDKfKwV1kWoBo2P1aGgaIYGLf9/ljw==
+"@types/node@^12.7.2":
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.2.tgz#c4e63af5e8823ce9cc3f0b34f7b998c2171f0c44"
+  integrity sha512-dyYO+f6ihZEtNPDcWNR1fkoTDf3zAK3lAABDze3mz6POyIercH0lEUawUFXlG8xaQZmm1yEBON/4TsYv/laDYg==
 
 "@types/pluralize@^0.0.29":
   version "0.0.29"
