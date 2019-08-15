@@ -1,6 +1,6 @@
 {
   "name": "@appgeist/example-restful-api-employees",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple example to demonstrate the usage of @appgeist/restful-api",
   "main": "index.js",
   "author": {
@@ -23,7 +23,7 @@
     "@types/http-status-codes": "^1.2.0",
     "@types/knex": "^0.16.1",
     "@types/morgan": "^1.7.36",
-    "@types/node": "^12.7.1",
+    "@types/node": "^12.7.2",
     "@types/pluralize": "^0.0.29",
     "@types/yup": "^0.26.22",
     "nodemon": "^1.19.1"
@@ -32,7 +32,7 @@
     "@appgeist/eslint-config-base": "^1.1.3",
     "@appgeist/exec": "^1.0.9",
     "@appgeist/file-exists": "^1.0.8",
-    "@appgeist/restful-api": "^1.4.0",
+    "@appgeist/restful-api": "^1.5.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "delay": "^4.3.0",
