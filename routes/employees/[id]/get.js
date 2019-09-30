@@ -11,10 +11,10 @@ exports.onRequest = async ({ params: { id } }) =>
   Employee.query()
     .findById(id)
     .eager('department(columns)', {
-      columns: qb => qb.select('id', 'name')
+      columns: (qb) => qb.select('id', 'name')
     })
     .throwIfNotFound()
-    .then(employee => ({
+    .then((employee) => ({
       ...employee,
       departmentId: undefined,
       department: employee.department.name
